@@ -1,0 +1,103 @@
+html{cursor: url('img/mouse1.png'), default;}
+body{font-family: Arial, Helvetica, sans-serif; font-size: large; 
+  color:rgb(255, 255, 255); background: url('img/fundo.jpg');}
+img{cursor: url('img/mouse2.png'), default;}
+   
+ 
+table.customTable {
+    width: 100%;
+    cursor: url('img/mouse2.png');
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7ea8f8;
+    border-style: solid;
+    color: #000000;} 
+table.customTable td {
+    cursor: url('img/mouse2.png');
+    border-width: 2px;
+    border-color: #7ea8f8;
+    border-style: solid;
+    padding: 5px;}
+table.customTable th {
+    background-color: #7ea8f8;
+    border-color: white; 
+    cursor: url('img/mouse2.png');}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+    cursor: url('img/mouse1.png'), default;}
+#menu ul li {display: inline;}
+#menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
+  cursor: url('img/mouse2.png'), default;}
+#menu ul li a:hover {
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #3300ea;
+  cursor: url('img/mouse2.png'), default;}
+#menu .active{
+  background-color:#3300ea;
+  color: #ffffff;
+  border-bottom:3px solid #D6D6D6;
+  cursor: url('img/mouse2.png'), default;}
+#menu .usuario{
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #3300ea;
+  cursor: url('img/mouse2.png'), default;}
+
+.box{position:absolute;left:50%;top:55%;transform: translate(-50%,-50%); color: black;
+  background-color: rgba(255, 255, 255, 0.7);border-radius:3px; padding-left: 46px; padding-right: 10px;}
+.boxun{position:absolute;left:50%;top:72%;transform: translate(-50%,-50%); color: black;
+  background-color: rgba(255, 255, 255, 0.7);border-radius:3px; padding-right: 10px; padding-left: 10px;}
+.boxlogin{position:absolute;left:50%;top:40%;transform: translate(-50%,-50%); color: black;
+  background-color: rgba(255, 255, 255, 0.7);border-radius:3px; padding-right: 10px; padding-left: 12px;}
+.boxPesquisa{position:absolute;left:50%;top:41%;transform: translate(-50%,-50%); color: black; width: 1100px;
+  background-color: rgba(255, 255, 255, 0.7);border-radius:3px; padding-right: 10px; padding-left: 23px;}
+  
+input[type=text] {width: 300px;padding: 12px 20px;
+  margin: 8px 0; display: inline-block; border: 1px solid #ccc;
+  border-radius: 4px; box-sizing: border-box; cursor: url('img/mouse2.png'), default;}
+input[type=text], select {width: 300px; padding: 12px 20px; margin: 8px 0;
+  display: inline-block; border: 1px solid #ccc; border-radius: 4px;
+  box-sizing: border-box; cursor: url('img/mouse2.png'), default;}
+.ord{width: 100px; padding: 7px 10px; margin: 8px 0;
+  display: inline-block; border: 1px solid #ccc;
+  border-radius: 4px; cursor: url('img/mouse2.png'), default;}
+.asc{ width: 100px; padding: 7px 10px; margin: 8px 0;
+  display: inline-block;  border: 1px solid #ccc;
+  border-radius: 4px; cursor: url('img/mouse2.png'), default;}
+input[type=number] { width: 90%;padding: 12px 20px;margin: 8px 0;
+  display: inline-block;border: 1px solid #ccc;border-radius: 4px;
+  box-sizing: border-box; cursor: url('img/mouse2.png'), default;}
+input[type=password] { width: 300px; padding: 12px 20px; margin: 8px 0;
+  display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;
+  cursor: url('img/mouse2.png'), default;}
+.botao_entrada {width: 300px;background-color: #3300ea;color: white;
+padding: 14px 20px;margin: 8px 0;border: none; border-radius: 4px; margin-left: 372px;
+cursor: url('img/mouse2.png'), default;}
+.botao_novo {width: 300px;background-color: #3300ea;color: white;
+  padding: 14px 20px;margin: 8px 0;border: none; border-radius: 4px; margin-left: 25px; 
+  cursor: url('img/mouse2.png'), default; margin-right: 25px;}
+.botao_login {width: 300px;background-color: #3300ea;color: white;
+  padding: 14px 20px;margin: 8px 0;border: none; border-radius: 4px; margin-left: 1px; 
+  cursor: url('img/mouse2.png'), default; margin-right: 2px;}
+.botao_enviar {width: 300px;background-color: #3300ea;color: white;
+  padding: 11px 20px;margin: 8px 0;border: none; border-radius: 4px; margin-left: 1px; 
+  cursor: url('img/mouse2.png'), default; margin-right: 34px;}
+  
+
+.uninova{padding-left:58px;}
+.Pesquisa{padding-left:24px;}
+
